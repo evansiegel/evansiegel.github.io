@@ -1,0 +1,138 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(to right,#481380,#d95809);
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: inline-block;
+  font-size:20px;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #481380;
+}
+
+nav li a.active {
+	padding: 14px 20px;
+	font-size: 30px;
+	background-color: #3c106b;
+}
+
+#top {
+	background-color: #b06df7;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+.intro {
+	margin-top: 50px;
+	padding: 20px;
+	background-color: #82E0FD;
+	border: 2px solid rgba(0, 0, 0, 0.3);
+	border-radius: 20px;
+}
+
+.pic {
+	float: right;
+}
+
+.geo {
+	background-color: #FEEF90;
+	margin-top: 50px;
+	padding: 20px;
+	border: 2px solid rgba(0, 0, 0, 0.3);
+	border-radius: 20px;	
+}
+
+.map {
+	float: left;
+	padding: 20px;
+}
+.geoInfo ul {
+	list-style: square;
+	background: #FEEF90;
+}
+
+.geoInfo ul li {
+	background: #FCF7D0;
+	padding: 5px;
+	margin-left: 285px;
+}
+
+.geoInfo h3 {
+	text-decoration: underline;
+}
+
+.gov {
+	background-color: #BAFEC9;
+	margin-top: 50px;
+	padding: 20px;
+	border: 2px solid rgba(0, 0, 0, 0.3);
+	border-radius: 20px;
+}
+
+.gov h3 {
+	text-decoration: underline;
+}
+
+.gov ul {
+	background: #9AFCB0;
+	padding: 20px;
+}
+
+.gov ul li {
+	background: #D1FDDA;
+	padding: 5px;
+	margin-left: 35px;
+}
+
+.sec {
+	background-color: #FEBABC;
+	margin-top: 50px;
+	padding: 20px;
+	border: 2px solid rgba(0, 0, 0, 0.3);
+	border-radius: 20px;
+}
+
+.sec h3 {
+	text-decoration: underline;
+}
+
+ol {
+  background: #ff9999;
+  padding: 20px;
+}
+
+ol li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+.move-up {
+	float: right;
+	height: 35px;
+	width: 35px;
+	background-color: #481380;
+	border-radius: 50%;
+	display: inline-block;
+}
